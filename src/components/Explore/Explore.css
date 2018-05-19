@@ -1,0 +1,267 @@
+.explore-main{
+    height: calc(100vh - 50px);
+    display: flex;
+}
+
+.explore-left-section-wrapper{
+    width: 35%;
+    min-width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-left-section-image{
+    background: url('https://wallpapernfl.com/wp-content/uploads/2018/03/HD-Cool-NFL-Backgrounds.jpg') no-repeat center;
+    height: 225px;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+}
+
+.explore-left-section-image button{
+    position: absolute;
+    right:    15px;
+    bottom:   20px;
+    height: 30px;
+    width: 85px;
+    font-size: 14px;
+    border: 0;
+}
+.explore-left-section-image img{
+    position: absolute;
+    left:    40px;
+    bottom:   -50px;
+    width: 130px;
+    font-size: 14px;
+    border: 0;
+}
+
+.explore-left-section-wrapper h2{
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: #6c6c6c;
+}
+.explore-left-section-wrapper p{
+    font-size: 11px;
+    font-weight: lighter;
+    color: #b9b9b9;
+    margin-top: 8px;
+}
+
+.explore-stats{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore-stats h2{
+    margin-top: 20px;
+}
+
+.explore-stats-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-message-button{
+    height: 40px;
+    width: 300px;
+    background-color: #3b3434;
+    border: 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.explore-left-section-intro{
+    margin-top: 50px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-left-section-intro a{
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.explore-left-section-intro p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.explore-left-section-intro-footer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-left-section-intro-footer h4{
+    color: #6c6c6c;
+    font-weight: lighter;
+}
+
+.explore-left-section-intro-footer-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.explore-left-section-intro-footer-logos img{
+    width: 15%;
+}
+
+.explore-right-section{
+    position: relative;
+    overflow-y: scroll;
+    width: 65%;
+    background-color: #fafafa;
+    z-index: 1;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-right-section-nav-bar{
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.explore-right-section-nav-bar ul{
+    margin: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.explore-right-section-nav-bar li{
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: lighter;
+}
+
+.explore-right-section-nav-bar-active{
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid black;
+    height: 50px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: bold !important;
+}
+
+.explore-right-section-nav-bar-active p{
+    margin-bottom: 12px;
+}
+
+.explore-right-section-search {
+    margin-top: 65px;
+    width: 95%;
+}
+
+.explore-right-section-search input{
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 40px;
+    background: #fff url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png') no-repeat left;
+    background-size: 30px;
+    border: 2px solid #777777;
+}
+
+.explore-right-section-athletes-cards-wrapper{
+    width: 95%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.explore-right-section-athletes-card{
+    width: 32%;
+    height: 300px;
+    background: white;
+    border: 1px solid #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.explore-right-section-athletes-card-image{
+    width: 100%;
+    height: 167px;
+    background: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.explore-right-section-athletes-card-image button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 25px;
+    width: 70px;
+    font-size: 12px;
+    border: 0;
+}
+
+.explore-right-section-athletes-card-profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: no-repeat center;
+    background-size: 150%;
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+}
+
+.explore-right-section-athletes-card h4 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: #6c6c6c;
+}
+.explore-right-section-athletes-card p {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #9e9e9e;
+}
+
+.explore-right-section-athletes-card-buttons {
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.explore-right-section-athletes-card-buttons button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-weight: lighter;
+    border: 0;
+    background-color: #963f37;
+}
+
+.color-dark-blue{
+    background-color: #3b3434 !important;
+}
+

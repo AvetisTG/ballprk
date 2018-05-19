@@ -1,0 +1,176 @@
+.registration-main{
+    height: calc(100vh - 50px);
+    display: flex;
+}
+
+.registration-form-wrapper{
+    width: 55%;
+    min-width: 500px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form-header{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 65px;
+}
+
+.registration-form-sub-header{
+    margin-top: 0;
+    width: 300px;
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+.registration-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.registration-form-back-button{
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background: linear-gradient(to right, #375962, #444444);
+    font-size: 17px;
+    font-weight: 100;
+    color: #fff;
+    border: 1px solid #444444;
+}
+
+.registration-form-back-button i{
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.for-hl{
+    width: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hl{
+    background-color: #444444;
+    width: 3px;
+    height: 145px;
+}
+
+.registration-form{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.registration-form label{
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.registration-form select, input{
+    margin: 8px 0 10px 0;
+    height: 40px;
+    width: 320px;
+    opacity: .5;
+    font-size: 14px;
+    border-radius: 0;
+    text-indent: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+    -webkit-appearance: none;
+}
+
+.registration-form-birth-date{
+    width: 320px;
+}
+
+.registration-form-birth-date-select{
+    display: flex;
+}
+
+.registration-form-birth-date-select select{
+    width: 27.5%;
+}
+
+.registration-form-birth-date-select select:nth-child(2){
+    width: 45%;
+    border-left: 0;
+    border-right: 0;
+}
+
+.registration-form-gender{
+    width: 320px;
+}
+
+.registration-form-gender-select{
+    display: flex;
+}
+
+.registration-form-gender-button button{
+    margin: 5px 0 7px 0;
+    height: 40px;
+    width: 33.33333%;
+    font-size: 14px;
+    opacity: .5;
+    border-radius: 0;
+    border: 1px solid black;
+    background-color: #fff;
+    -webkit-appearance: none;
+}
+
+.registration-form-gender-button-active{
+    margin-top: 30px;
+    height: 50px;
+    background: linear-gradient(to right, #375962, #444444);
+    font-size: 17px;
+    opacity: 1 !important;
+    font-weight: 100;
+    color: #fff;
+    border: 1px solid #444444;
+}
+
+.registration-form-gender-button button:nth-child(2){
+    border-left: 0;
+    border-right: 0;
+}
+
+.registration-image{
+    width: 45%;
+    z-index: 1;
+    background-size: cover;
+    background: url('https://thumbs.dreamstime.com/z/street-fashion-concept-stylish-cool-girl-rock-black-style-posing-against-colorful-urban-wall-53832984.jpg') center;
+}
+
+.registration-footer{
+    position:absolute;
+    bottom:0;
+    width: 55%;
+    min-width: 500px;
+    height: 40px;
+    background-color: #fafafa;
+    box-shadow: 0 0 7px 0 #333;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.registration-footer p{
+    margin-right: 10px;
+}
+
+.registration-footer a{
+    text-decoration: none;
+}
+
+.registration-footer a:visited{
+    text-decoration: none;
+}

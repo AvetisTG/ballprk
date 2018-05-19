@@ -1,0 +1,17 @@
+.home-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.home-registration-button{
+    margin: 40px auto;
+    height: 50px;
+    width: 350px;
+    background: linear-gradient(to right, #375962, #444444);
+    font-size: 17px;
+    font-weight: 100;
+    color: #fff;
+    border: 1px solid #444444;
+}
