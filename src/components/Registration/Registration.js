@@ -78,7 +78,7 @@ export class Registration extends Component {
 
     const { monthNumber } = this.state
     const months = moment()._locale._months;
-    const daysInMonth = moment(monthNumber, 'DD').daysInMonth()
+    const daysInMonth = moment(monthNumber, 'MM').daysInMonth()
     let daysToRender = [];
     for (let i = 1; i <= daysInMonth; i++) {
       daysToRender.push(i);
